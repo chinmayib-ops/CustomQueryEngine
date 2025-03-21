@@ -6,6 +6,8 @@ The `TaxiQueryEngine` class handles different queries, including counting trips,
 
 Results are formatted in `main.py` for user-friendly output. Key design decisions include chunking for memory efficiency, parallel processing for faster execution, and a modular structure for maintainability. This solution efficiently handles large datasets without external libraries like Pandas or Spark.
 
+dataset is called taxi-trips-data.json (it is publicly available)
+
 ## How to Use
 
 1. Place your JSON file in the appropriate location.
@@ -16,6 +18,8 @@ Results are formatted in `main.py` for user-friendly output. Key design decision
 ./run.sh query1
 ./run.sh query2
 ./run.sh query3
-./run.sh query4# CustomQueryEngine
+./run.sh query4 
+
+
 
 
